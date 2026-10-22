@@ -112,11 +112,6 @@
             <li>基于 GD32G553 开发后级三重化 Buck 控制程序，实现 ADC 电压采样、PI 闭环调节及三路 120° 交错 PWM 输出。</li>
             <li>项目完成仿真与低压样机验证，实现 50 V 直流母线稳压及 30 V 降压输出。</li>
           </ul>
-          <div class="metrics">
-            <div><strong>30 V ± 0.03 V</strong><span>输出直流电压</span></div>
-            <div><strong>> 2%</strong><span>功率因数</span></div>
-            <div><strong>20–100 Hz</strong><span>输出频率调节</span></div>
-          </div>
           <div class="tags">
             <span>GD32G553</span><span>DSP</span><span>FPGA</span><span>T 型三电平</span><span>三重化 Buck</span><span>PI 控制</span>
           </div>
@@ -124,6 +119,23 @@
         <article class="project">
           <div class="project-top">
             <span class="eyebrow">02 / POWER ELECTRONICS</span
+            ><span class="date">2025/11 — 2026/04</span>
+          </div>
+          <h3>有源电力滤波器设计与研究</h3>
+          <p class="role">本科毕业论文 · 独立完成软硬件设计与论文撰写</p>
+          <ul>
+            <li>面向非线性负载谐波补偿，完成三相两电平并联型有源电力滤波器设计，涵盖主电路、驱动接口、信号采样与调理电路及 PCB 设计。</li>
+            <li>采用 dq 谐波检测与 SRF-PLL 锁相，在 MATLAB/Simulink 中对比 PI、多重比例—谐振及比例—重复控制（PRC）；PRC + SVPWM 方案的稳态仿真电网电流 THD 从 19.21% 降至 3.16%。</li>
+            <li>基于 TMS320F28335，在 CCS 中使用 C 语言开发采样、锁相、直流电压外环、PRC 电流内环及 SVPWM 程序，实现 10 kHz 实时闭环控制。</li>
+            <li>搭建 DSP 与 Typhoon HIL 硬件在环验证平台；在三相二极管整流负载工况下，补偿后电网电流 THD 从 20.15% 降至 4.86%，HIL 模型直流母线稳定于 800 V。</li>
+          </ul>
+          <div class="tags">
+            <span>TMS320F28335</span><span>MATLAB/Simulink</span><span>Typhoon HIL</span><span>PRC</span><span>SVPWM</span><span>PCB 设计</span>
+          </div>
+        </article>
+        <article class="project">
+          <div class="project-top">
+            <span class="eyebrow">03 / POWER ELECTRONICS</span
             ><span class="date">2025/03 — 2025/08</span>
           </div>
           <h3>带能量回馈的逆变电路</h3>
@@ -133,6 +145,9 @@
             <li>实现电压闭环、按键调参以及 20–100 Hz、1 Hz 步进的频率调节。</li>
             <li>设计能量回馈功能，经隔离变压器与整流器将输出侧能量回馈至输入侧。</li>
           </ul>
+          <div class="tags">
+            <span>双闭环</span><span>DSP</span><span>能量回馈</span><span>UI设计</span>
+          </div>
           <div class="metrics">
             <div><strong>32 V ± 0.09 V</strong><span>输出线电压</span></div>
             <div><strong>&lt; 2%</strong><span>三相输出 THD</span></div>
@@ -141,7 +156,7 @@
         </article>
         <article class="project">
           <div class="project-top">
-            <span class="eyebrow">03 / EMBEDDED SYSTEMS</span
+            <span class="eyebrow">04 / EMBEDDED SYSTEMS</span
             ><span class="date">2024/06 — 2025/07</span>
           </div>
           <h3>带无线充电的电磁循迹智能车</h3>
